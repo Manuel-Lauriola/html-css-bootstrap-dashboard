@@ -7,3 +7,9 @@
 .logo {
   height: 40px;
 }
+
+.see {
+  background-color: darkblue;
+  border: solid 2px gold;
+  min-height: 500px;
+}
