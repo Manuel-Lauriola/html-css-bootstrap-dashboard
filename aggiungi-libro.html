@@ -56,20 +56,52 @@
         <div class="row">
           <div class="col-6">
             <div class="w-100">
-              <form action="">
-                <label for="nome-autore">Nome autore</label><br>
-                <input class="w-100 mt-2" type="text" placeholder="Inserisci qui il nome dell'autore">
+              <form class="my-2" action="">
+                <label for="nome-autore">Nome autore</label>
+                <input class="w-100" type="text" placeholder="Inserisci qui il nome dell'autore">
               </form>
             </div>
           </div>
           <div class="col-6">
             <div class="w-100">
-              <form action="">
-                <label for="nome-autore">Cogome autore</label><br>
-                <input class="w-100 mt-2" type="text" placeholder="Inserisci qui il cognome dell'autore">
+              <form class="my-2" action="">
+                <label for="nome-autore">Cogome autore</label>
+                <input class="w-100" type="text" placeholder="Inserisci qui il cognome dell'autore">
               </form>
             </div>
           </div>
+          <div class="col-12">
+            <form class="my-2" action="">
+              <label for="titolo">Titolo</label>
+              <input class="w-100" type="text" placeholder="Inserisci il titolo del libro">
+              <span class="text-secondary">titolo versione italiana</span>
+            </form>
+          </div>
+          <div class="col-12 col-lg-4">
+            <form class="my-2" action="">
+              <label for="genere">Genere:</label>
+              <select class="w-100" id="genere" name="genere">
+                <option value="volvo">Fantasy</option>
+                <option value="saab">Romanzo</option>
+                <option value="fiat">Avventura</option>
+                <option value="audi">Dario Moccia</option>
+              </select>
+            </form>
+          </div>
+          <div class="col-12 col-lg-4">
+            <form class="my-2" action="">
+              <label for="anno">Anno di pubblicazione</label>
+              <input class="w-100" type="date" name="data" id="data" placeholder="Inserisci l'anno di pubblicazione">
+            </form>
+          </div>
+          <div class="col-12 col-lg-4">
+            <form class="my-2 mb-5" action="">
+              <label for="codice">ISBN#</label>
+              <input class="w-100" type="number" name="isbn" id="isbn" placeholder="Inserisci il codice ISBN#">
+            </form>
+          </div>
+          <hr>
+
         </div>
       </div>
     </div>
